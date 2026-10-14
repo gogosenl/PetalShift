@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Petal Shift",
+    "slug": "ruzgar-korusu",
+    "version": "1.0.7",
+    "scheme": "ruzgarkorusu",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "icon": "./assets/hd/app-icon.png",
+    "splash": {
+      "image": "./assets/hd/app-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4E8CA"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gorsengames.ruzgarkorusu",
+      "buildNumber": "16",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/hd/app-icon.png",
+        "backgroundColor": "#F4E8CA"
+      },
+      "package": "com.gorsengames.ruzgarkorusu",
+      "versionCode": 20,
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ],
+      "permissions": [
+        "com.google.android.gms.permission.AD_ID",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/hd/app-icon.png"
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-asset",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+          "delayAppMeasurementInit": true,
+          "optimizeInitialization": true,
+          "optimizeAdLoading": true
+        }
+      ]
+    ]
+  }
+}

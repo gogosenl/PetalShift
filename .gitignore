@@ -1,0 +1,66 @@
+# Dependencies and local caches
+node_modules/
+.npm-cache/
+.expo/
+.expo-shared/
+
+# Generated builds, validation reports and coverage
+dist/
+dist-*/
+build/
+build-*/
+web-build/
+.audit-*/
+coverage/
+
+# Generated store media (the source artwork stays under assets/)
+store-screenshots/
+app-store-assets/
+play-store-assets/
+
+# Local design iterations and generated asset diagnostics
+assets/designs/
+assets/hd/flower-token.png
+assets/ui-v3/alignment-check*.jpg
+assets/ui-v3/contact-sheet*.jpg
+assets/ui-v3/corner-leaf-*.png
+assets/ui-v3/currency-coral.png
+assets/ui-v3/currency-gold.png
+assets/ui-v3/currency-sage.png
+assets/ui-v3/icon-currency-leaf.png
+assets/ui-v3/icon-home.png
+assets/ui-v3/icon-levels.png
+assets/ui-v3/icon-settings.png
+assets/ui-v3/icon-shop.png
+assets/ui-v4/icon-home-cutout.png
+assets/ui-v4/icon-home-source.png
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Signing credentials and service account files
+*.jks
+*.keystore
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+credentials.json
+credentials.*.json
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+
+# Logs and local editor/OS files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.orig.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
